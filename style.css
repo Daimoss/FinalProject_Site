@@ -1,0 +1,1272 @@
+body {
+   position: relative;
+   width: 1920px;
+   height: 1050px;
+ 	top: 100px;
+   background-image: url(https://hmstudio.com.ua/25170-medium_default/-fetr-listovoy-3mm-cvet-persikovyy.jpg) ;
+   overflow-y: hidden; overflow-x: hidden;
+   display: flex;
+   flex-wrap: wrap;
+
+
+}
+
+/*----------------------------------------------------------------------------*/
+
+
+
+.kvadrat {
+position: absolute;
+width: 250px;
+height: 250px;
+border: 20px solid #E8C300;
+box-sizing: border-box;
+filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.5));
+border-radius: 5px;
+}
+a:hover {
+	text-decoration: line-through;
+}
+.ez_img {
+position: absolute;
+width: 600px;
+height: 475px;
+z-index: 100;}
+.text_s_head{
+font-family: Banny;
+font-size: 36px;
+line-height: 48px;
+text-align: center;
+}
+.text_s_bottom{
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 28px;
+
+display: flex;
+align-items: flex-end;
+text-align: center;
+
+}
+
+
+
+
+
+#bg_pic{
+position: absolute;
+width: 1920px;
+height: 950px;
+left: 0px;
+top: -100px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://wallpaperaccess.com/full/3014601.jpg);
+}
+.topmenu {
+	position: absolute;
+	right: 20px;
+	width: 1920px;
+	height: 100px;
+	position: absolute;
+	cursor:pointer;
+	z-index: 1000;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
+
+.topmenuch{
+width: 133px;
+height: 100px;
+top: 0px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 18px;
+
+display: flex;
+align-items: center;
+text-align: center;
+text-decoration: none;
+color: black;}
+
+#log {
+position: absolute;
+width: 150px;
+height: 150px;
+right: 952px;
+top: 25px;
+}
+
+
+#log {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform 1.3s ease-in-out;
+          transition:         transform 1.3s ease-in-out;
+}
+#log:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+
+
+#center_head {
+position: absolute;
+width: 1440px;
+height: 249px;
+left: 201px;
+top: 326px;
+}
+
+#text_hungry {
+position: absolute;
+width: 998px;
+height: 139px;
+left: 362px;
+
+
+font-family: Banny;
+font-style: italic;
+font-size: 96px;
+line-height: 0px;
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+background: rgb(255,255,255);
+background: ;
+
+background: url(https://i.ibb.co/KDB8ks0/animated-text-fill.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+      -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+
+/* Activate hardware acceleration for smoother animations */
+
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-backface-visibility: hidden;
+
+
+}
+
+
+@-webkit-keyframes aitf {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+
+
+
+
+#text_rest {
+position: absolute;
+width: 1440px;
+height: 18.39px;
+left: 600px;
+
+/* Caption */
+
+font-family: Open Sans;
+font-style: bold;
+font-weight: bold;
+font-size: 18px;
+line-height: 14px;
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.5em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+#text_time {
+position: absolute;
+width: 698px;
+height: 60px;
+left: -40px;
+top: 30px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 21px;
+line-height: 12px;
+/* or 100% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+#small_line {
+position: absolute;
+width: 60px;
+height: 5.11px;
+left: 661px;
+top: 141px;
+
+background: #540d16;
+border-radius: 50px;
+}
+
+#book_table {
+position: absolute;
+width: 200px;
+height: 60px;
+left: 471px;
+top: 175px;
+color: #FFFFFF;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+border-radius: 5px;
+text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+}
+
+
+#explore {
+position: absolute;
+width: 200px;
+height: 60px;
+left: 721px;
+top: 175px;
+color: #FFFFFF;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+border-radius: 5px;
+text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+}
+#explore:hover {
+	background: #540d16;
+}
+#book_table:hover{
+	background:#540d16;
+}
+#socia_buttons{
+position: absolute;
+width: 220px;
+height: 60px;
+left: 1641px;
+top: 20px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+cursor:pointer;
+}
+@import "bootstrap-social.less";
+#facebook {
+	color: darkblue;
+}
+.socia {
+	align-content: center;
+	border-radius: 40%;
+	width: 40px;
+	height: 40px;
+	left: 10px;
+	cursor:pointer;
+
+}
+.socia:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+#socia_text{
+	position: absolute;
+	color: white;
+	width: 200px;
+	left: 1360px;
+	top: 330px;
+}
+
+#btn_down {
+position: absolute;
+width: 60px;
+height: 60px;
+left: 867px;
+top: 667px;
+border-radius: 50%;
+text-transform: uppercase;
+  overflow: hidden;
+  transition: 1s all ease;
+}
+#line1 {
+position: absolute;
+width: 790px;
+height: 1px;
+top: 100px;
+
+border: 1px solid rgba(255, 255, 255, 0.2);
+}
+#line2{
+position: absolute;
+width: 910px;
+height: 1px;
+left: 990px;
+top: 100px;
+
+border: 1px solid rgba(255, 255, 255, 0.2);
+}
+#line3 {
+position: absolute;
+width: 750px;
+height: 1px;
+left: 1px;
+top: 474px;
+
+border: 1px solid rgba(255, 255, 255, 0.2);
+transform: rotate(-90deg);
+}
+#line4{
+position: absolute;
+width: 454px;
+height: 1px;
+left: 670px;
+top: 425px;
+
+border: 1px solid rgba(255, 255, 255, 0.2);
+transform: rotate(-90deg);
+}
+#line5 {
+position: absolute;
+width: 112px;
+height: 1px;
+left: 843px;
+top: 793px;
+
+border: 1px solid rgba(255, 255, 255, 0.2);
+transform: rotate(-90deg);
+}
+#line6 {
+position: absolute;
+width: 750px;
+height: 1px;
+left: 1065px;
+top: 474px;
+
+border: 1px solid rgba(255, 255, 255, 0.2);
+transform: rotate(-90deg);
+}
+
+.footer {
+	position: absolute;
+	top: 850px;
+	width: 1920px;
+	height: 100px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	z-index: 99999;
+}
+/*----------------------------------------------------------------------------*/
+
+
+
+.about_us_s {
+position: absolute;
+width: 1920px;
+height: 850px;
+display: flex;
+flex-wrap: wrap;
+color: white;
+}
+#about_us_text {
+position: absolute;
+width: 600px;
+height: 241px;
+left: 120px;
+top: 220px;
+}
+
+	
+#text_about{
+position: absolute;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+left: 160px;
+width: 270.44px;
+height: 56px;
+color: white;
+top:-50px;
+}
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,,800,900);
+#text_about2{position: absolute;
+width: 600px;
+height: 180px;
+left: 1px;
+top: 55px;
+
+}
+#line_about{
+position: absolute;
+width: 59.19px;
+height: 5px;
+left: 268.58px;
+top: 13px;
+
+background:#540d16;
+border-radius: 50px;
+}
+#bg_pic_about{
+position: absolute;
+width: 1920px;
+height: 950px;
+left: 0px;
+top: -100px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://lipavi.com/wp-content/uploads/2017/06/chef.jpg);
+}
+
+/*----------------------------------------------------------------------------*/
+
+
+#team_our_team_h{
+position: absolute;
+width: 1440px;
+height: 100px;
+left: 650px;
+top: 75px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 14px;
+color: #FFFFFF;
+}
+
+#team_text{
+position: absolute;
+width: 600px;
+height: 241px;
+left: 130px;
+top: 520px;
+}
+#text_team1{
+color: #FFFFFF;
+}
+#text_team2{
+position: absolute;
+top: 70px;
+color: rgba(255, 255, 255, 0.9);
+}
+#line_team {
+position: absolute;
+width: 64.73px;
+height: 5px;
+left: 276.14px;
+top: 52px;
+background: #540d16;
+border-radius: 50px;
+}
+#line_team1 {
+position: absolute;
+width: 675px;
+height: 1px;
+left: -45px;
+top: 337px;
+border: 1px solid rgba(255, 255, 255, 0.2);
+transform: rotate(-90deg);}
+#line_team2 {
+position: absolute;
+width: 675px;
+height: 1px;
+left: 370px;
+top: 337px;
+border: 1px solid rgba(255, 255, 255, 0.2);
+transform: rotate(-90deg);}
+#line_team3{	
+position: absolute;
+width: 675px;
+height: 1px;
+left: 810px;
+top: 337px;
+border: 1px solid rgba(255, 255, 255, 0.2);
+transform: rotate(-90deg);}
+/*-------------------------------------------------------------------------*/
+
+#bg_pic_booking{
+position: absolute;
+width: 1920px;
+height: 950px;
+left: 0px;
+top: -100px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2018/10/02/1412/Grand-Hyatt-Kuala-Lumpur-P266-Poolhouse-Seating.jpg/Grand-Hyatt-Kuala-Lumpur-P266-Poolhouse-Seating.16x9.jpg?imwidth=1920);
+}
+
+.col-7{
+	color: white;
+}
+
+#form_booking{
+position: absolute;
+width: 1800px;
+height: 600px;
+left: 50px;
+top: 210px;
+
+}
+#booking_text{
+position: absolute;
+width: 1440px;
+height: 100px;
+left: -480px;
+top:60px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 12px;
+text-align: center;
+color: white;
+border-radius: 5px;
+}
+
+#but_booking {
+position: absolute;
+top: 430px;
+color: #FFFFFF;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+border-radius: 5px;
+width: 563px;
+height: 80px;
+left: 580px;
+color: white;
+}
+#but_booking:hover{
+	background:#540d16;
+}
+#booking_form_text{
+font-family: Banny;
+font-size: 36px;
+line-height: 48px;
+position: absolute;
+right: 820px;
+text-align: center;
+text-transform: uppercase;
+
+color: white;
+}
+.form-control{
+height: 60px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+align-items: center;
+text-indent: 20px;	
+color: white;
+}
+#cool{
+	position: absolute;
+	width: 550px;
+	left: 80px;
+	top: 20px;
+	background: rgba( 0,0,0,.7);
+	color: white;
+}
+
+#cool2{
+	position: absolute;
+	width: 550px;
+	left: 80px;
+	top: 60px;
+	background: rgba( 0,0,0,.7);
+	color: white;
+}
+#cool3{
+	position: absolute;
+	width: 550px;
+	left: 80px;
+	top: 120px;
+	background: rgba( 0,0,0,.7);
+	color: white;
+}
+#cool4 {
+	position: relative;
+	width: 550px;	
+	right: -70px;
+	top: 20px;
+	background: rgba( 0,0,0,.7);
+	color: white;
+}
+#inlineFormCustomSelect {
+		
+	top: 60px;
+	width: 550px;
+	color: white;
+	background: rgba( 0,0,0,.7);
+
+}
+#inlineFormCustomSelect2 {
+	top: 120px;	
+	width: 550px;
+	color: white;
+	background: rgba( 0,0,0,.7);
+	
+}
+
+
+.custom-select{
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+display: flex;
+align-items: center;
+text-indent: 20px;
+position: relative;
+right: -70px;
+}
+
+
+/*-------------------------------------------------------------------------*/
+.specialties{
+position: absolute;
+width: 1440px;
+height: 675px;
+left: -650px;
+top: -5px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+}
+
+#spec_head_text {
+position: absolute;
+width: 1440px;
+height: 100px;
+top: 50px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 14px;
+text-align: center;
+color: #FFFFFF;
+}
+
+#text_spec {
+position: absolute;
+width: 600px;
+height: 241px;
+left: 761px;
+top: 217px;
+}
+#text_spec1 {
+color: #FFFFFF;
+}
+#text_spec2 {
+position: absolute;
+top: 70px;
+font-size: 18px;
+line-height: 28px;
+color: rgba(255, 255, 255, 0.9);
+}
+#line_spec{
+	position: absolute;
+width: 64.73px;
+height: 5px;
+left: 316.14px;
+top: 52px;
+
+background:#540d16;
+border-radius: 50px;
+}
+#line_spec1{
+	position: absolute;
+width: 64.73px;
+height: 5px;
+left: 276.14px;
+top: 52px;
+
+background:#540d16;
+border-radius: 50px;
+}
+
+/*----------------------------------------------------------------------------*/
+.menu_s {
+position: absolute;
+width: 1280px;
+height: 720px;
+left: 80px;
+top: 3600px;
+display: flex;
+}  
+#bg_pic_menu	{
+position: absolute;
+width: 1920px;
+height: 950px;
+left: 0px;
+top: -100px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2017/01/24/1445/World-of-Hyatt-P017-Colleagues-In-Action-Servers.jpg/World-of-Hyatt-P017-Colleagues-In-Action-Servers.16x9-V1.jpg?imwidth=1920);
+}
+
+#line_menu{
+position: absolute;
+width: 61.06px;
+height: 5px;
+left: 615px;
+top:50px;
+background: #E8C300;
+border-radius: 50px;
+}
+
+#text_menu2{
+	position: absolute;
+	width: 500px;
+	left: 380px;
+	top: 60px;
+}
+#text_menu1{
+	position: absolute;
+	left: 480px;}
+#list_menu{
+position: absolute;
+width: 900px;
+height: 50px;
+left: 480px;
+top: 200px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+cursor:pointer;
+}
+.list_menu_item{
+width: 120px;
+height: 50px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 18px;
+display: flex;
+align-items: center;
+text-align: center;
+color: white;
+}
+.list_menu_item:hover{
+	background: rgba(0,0,0,0);
+	color: #3a7999;
+}
+.full_menu{
+	width: 1400px;
+	height: 450px;
+	position: absolute;
+	left: 200px;
+	top: 310px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.part_menu{
+	width: 350px;
+	height: 450px;
+	display: flex;
+	flex-direction: column;
+}
+.text1_menu{
+	font-family: Banny;
+font-size: 18px;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color:white;
+}
+.text2_menu{
+font-family: Open Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+color: grey;
+position: relative;	
+top: -15px;
+}
+/*---------------------------------------------------------------------------*/
+#bg_pic_spec{
+position: absolute;
+width: 1920px;
+height: 950px;
+left: 0px;
+top: -100px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://www.singleplatform.com/wp-content/uploads/2018/12/Restaurant-Catering-for-Events-How-to-Price-Them-Right.jpg);
+}
+.events_s {
+position: absolute;
+width: 1440px;
+height: 675px;
+left: 320px;
+top: -10px;
+}
+#text_event {
+position: absolute;
+width: 600px;
+height: 241px;
+left: 761px;
+top: 217px;
+}
+#text_event1 {
+color: #FFFFFF;
+}
+#text_event2 {
+position: absolute;
+top: 70px;
+font-size: 18px;
+line-height: 28px;
+color: rgba(255, 255, 255, 0.9);
+}
+#line_spec{
+	position: absolute;
+width: 64.73px;
+height: 5px;
+left: 276.14px;
+top: 52px;
+
+background: #540d16;
+border-radius: 50px;
+}
+/*#img_menu1{
+	position: absolute;
+	z-index: 99999;
+	left: 1950px;
+	top: -300px;
+}
+#img_menu1_2{
+	position: absolute;
+	z-index: 99999;
+	left: 1050px;
+	top: -200px;
+}*/
+/*--------------------------------------------------------------------------*/
+/*.galerie_s {
+position: absolute;
+width: 1440px;
+height: 360px;
+left: 0px;
+top: 5095px;
+display: flex;
+flex-direction: row;
+}*/
+/*------------------------------------------------------------------------*/
+#bg_pic_cont{
+position: absolute;
+width: 1920px;
+height: 950px;
+left: 0px;
+top: -100px;
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://external-preview.redd.it/v0RsuxBb5y88jNUtiM6a0ZO8qwYPZ3kF5hsiktYzRp4.jpg?auto=webp&s=b844014e2d07f44b0d3620597e5162297c3be443);
+}
+#text_cont{
+position: absolute;
+width: 1280px;
+height: 447px;
+left: 515px;
+top: 225px;
+}
+#text_cont1{
+	font-family: Banny;
+font-size: 36px;
+line-height: 48px;
+position: absolute;
+right: 820px;
+text-align: center;
+text-transform: uppercase;
+
+color: white;
+}
+#line_cont{
+position: absolute;
+width: 64.73px;
+height: 5px;
+left: 350px;
+top: 70px;
+background-color: #540d16;}
+
+#text_cont2 {
+position: relative;
+width: 565px;
+top: 100px;
+right: -90px;
+color: white;}
+
+#cont_form{
+	width: 1300px;
+	position: absolute;
+	top: 500px;
+	left: 250px;
+	height: 300px;}
+
+#menu_mes{
+	position: absolute;
+	top: 70px;
+	right: 20px;
+	height: 120px;
+	width: 1275px;
+	background: rgba( 0,0,0,.7);
+	color: white;
+
+}
+#but_cont{
+	width: 640px;
+	height: 60px;
+	position: absolute;
+	top: 200px;
+	left: 640px;
+	font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+border-radius: 5px;
+color: white;
+}
+
+#but_cont:hover{
+	background:#540d16;
+}
+
+
+
+
+
+#menu_inp_1{
+	width: 420px;
+	background: rgba( 0,0,0,.7);
+	color: white;
+}
+#menu_inp_2{
+	width: 420px;
+	background: rgba( 0,0,0,.7);
+	color: white;
+}
+#menu_inp_3{
+	width: 420px;
+	background: rgba( 0,0,0,.7);
+	color: white;
+}
+#img_cont{
+	position: absolute;
+	top: 210px;
+	width: 640px;
+	height: 60px;
+	left: 15px;
+}
+/*---------------------------------------------------------------------------*/
+/*.map_s{
+position: absolute;
+width: 1441px;
+height: 535px;
+left: -80px;
+top: 502px;
+}
+#text_menu{
+position: absolute;
+position: absolute;
+width: 1441px;
+height: 70px;
+top: 470px;
+color: white;
+background: rgba(0, 0, 0, 0.9);
+}*/
+/*------------------------------------------------------------*/
+#search {
+	position: absolute;
+	top: 10px;
+	left: -420px;
+}
+
+#explore {
+cursor:pointer;
+}
+#text-to-find {
+	background: rgba( 0,0,0,.8);
+	width: 290px;
+	color: white;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 420px) {
+	body{
+	position: absolute;
+	width: 380px;
+	height:815px;
+	overflow-y: hidden; overflow-x: hidden;
+	overflow: hidden;
+}
+.topmenu{
+	position: absolute;
+	right: 1536px;
+	width: 380px;
+	height: 100px;
+}
+
+#galerie{
+	position: relative;
+	right: 15px;
+}
+.topmenuch{
+width: 65px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 10px;
+line-height: 10px;
+justify-content: space-between;
+}
+
+
+.footer {
+	
+	top: 721px;
+	width: 950px;
+	height: 100px;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	z-index: 99999;
+}
+
+#text_time {
+position: absolute;
+width: 150px;
+height: 40px;
+left: 10px;
+top: 10px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 12px;
+/* or 100% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+#booking_text{
+position: absolute;
+width: 1440px;
+height: 100px;
+left: -540px;
+top:60px;
+font-size: 15px;}
+
+
+#socia_buttons{
+position: absolute;
+width: 120px;
+height: 60px;
+left: 210px;
+top: 10px;
+}
+.socia {
+	width: 30px;
+	height: 30px;
+	left: 10px;
+	cursor:pointer;}
+#search {
+	position: absolute;
+	top: 10px;
+	left: -420px;
+	visibility: hidden;
+}
+#text_about{
+left: -70px;
+top: -90px;
+color: white;
+}
+
+#text_about2{
+width: 300px;
+height: 200px;
+left: -80px;
+top: 10px;
+}
+.text_s_bottom{
+font-size: 16px;
+line-height: 16px;}
+
+
+#team_text{
+position: absolute;
+width: 300px;
+height: 241px;
+left: 40px;
+top: 450px;
+}
+#line_team {
+left: 140px;
+}
+#line_about{
+left: 60px;
+top: -30px;
+
+}
+#text_hungry {
+position: absolute;
+width: 300px;
+height: 139px;
+left: -140px;
+top: -180px;
+
+font-size: 36px;
+line-height: 0px;
+}
+#text_rest {
+position: absolute;
+width: 300px;
+height: 18.39px;
+left: -90px;
+top: -170px;
+font-size: 13px;
+line-height: 14px;}
+#book_table {
+width: 200px;
+height: 60px;
+left: -121px;
+top: 175px;
+}
+#explore {
+left: -121px;
+top: 255px;}
+
+#text_spec {
+position: absolute;
+width: 300px;
+height: 241px;
+left: 691px;
+top: 127px;
+}
+
+#text_spec2{
+position: absolute;
+top: 70px;
+font-size: 16px;
+line-height: 16px;}
+
+
+#line_spec{
+left: 126.14px;
+top: 52px;
+}
+
+#text_event {
+position: absolute;
+width: 300px;
+height: 241px;
+left: -281px;
+top: 217px;
+}
+
+#text_event2 {
+position: absolute;
+top: 280px;
+font-size: 16px;
+line-height: 16px;
+color: rgba(255, 255, 255, 0.9);
+}
+
+#text_event1{
+	position: absolute;
+	top: 220px;
+	left: 80px;
+}
+#line_spec1{
+
+left: 130.14px;
+top: 272px;
+
+background:#540d16;
+border-radius: 50px;
+}
+#booking_form_text{
+font-size: 32px;
+line-height: 36px;
+position: absolute;
+right: 1520px;
+top: -80px;
+}
+#cool{
+	position: absolute;
+	width: 160px;
+	left: -15px;
+	top: 20px;
+	background: rgba( 0,0,0,.7);
+	color: white;
+}
+
+#cool2{
+	position: absolute;
+	width: 160px;
+	left: -15px;
+	top: 50px;
+	background: rgba( 0,0,0,.7);
+	color: white;
+}
+#cool3{
+	position: absolute;
+	width: 160px;
+	left: -15px;
+	top: 100px;
+	background: rgba( 0,0,0,.7);
+	color: white;
+}
+#cool4 {
+	position: relative;
+	width: 160px;	
+	right: 880px;
+	top: 20px;
+	background: rgba( 0,0,0,.7);
+	color: white;
+}
+#inlineFormCustomSelect {
+		position: relative;
+		right: 880px;
+	top: 60px;
+	width: 160px;
+	color: white;
+	background: rgba( 0,0,0,.7);
+
+}
+#inlineFormCustomSelect2 {
+	position: relative;
+		right: 880px;
+	top: 120px;	
+	width: 160px;
+	color: white;
+	background: rgba( 0,0,0,.7);
+	
+}
+#but_booking {
+position: absolute;
+top: 350px;
+color: #FFFFFF;
+font-family: Open Sans;
+font-style: normal;
+font-weight: bold;
+border-radius: 5px;
+width: 300px;
+height: 60px;
+left: 10px;
+color: white;
+}
+}
